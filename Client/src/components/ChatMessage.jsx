@@ -1,4 +1,5 @@
 import './messages.css'
+import ReactMarkdown from 'react-markdown'  // Need to modify
 
 const ChatMessage = ({ message, isBot }) => {
 
@@ -15,7 +16,7 @@ const ChatMessage = ({ message, isBot }) => {
                 </div>
             ) : (
                 <div className='chat__message chat__message__user'>
-                    <div className='chat__message__text__user'>{senderMessage}</div>
+                    <ReactMarkdown className='chat__message__text__user'>{senderMessage}</ReactMarkdown>
                 </div>
             )}
         </>

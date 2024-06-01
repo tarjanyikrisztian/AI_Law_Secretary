@@ -3,6 +3,7 @@ import './App.css'
 import ChatMessage from './components/ChatMessage'
 import axios from 'axios'
 
+
 function App() {
   // on form submit, add the message to the chat
   const [currentMessage, setCurrentMessage] = useState('')
