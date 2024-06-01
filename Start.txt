@@ -1,0 +1,7 @@
+Client:
+cd Client
+npm run dev
+
+Server:
+cd Server
+flask run
